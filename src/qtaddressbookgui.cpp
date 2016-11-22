@@ -21,7 +21,7 @@ QtAddressBookGUI::QtAddressBookGUI(AddressBookController &controller, AddressBoo
     appController(controller), dataSource(model)
 {
     createWidgets();
-    setMinimumSize(640,480);
+    setMinimumSize(240,180);
 }
 
 QtAddressBookGUI::~QtAddressBookGUI()
